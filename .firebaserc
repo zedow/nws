@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "nwssocial-683cf": {
+      "hosting": {
+        "nws": [
+          "nwssocial-683cf"
+        ]
+      }
+    }
+  }
+}

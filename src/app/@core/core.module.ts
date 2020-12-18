@@ -13,7 +13,6 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     MatToolbarModule,
     MatIconModule
-    
   ],
   exports: [
     HeaderComponent

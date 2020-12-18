@@ -12,11 +12,13 @@ import { CoreModule } from './@core/core.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { PostListComponent } from './pages/posts/post-list/post-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthComponent
+    AuthComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,

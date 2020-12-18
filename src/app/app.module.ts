@@ -8,6 +8,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AuthComponent } from './pages/auth/auth.component';
+import { CoreModule } from './@core/core.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,8 @@ import { AuthComponent } from './pages/auth/auth.component';
   ],
   imports: [
     BrowserModule,
+    CoreModule,
+  
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),

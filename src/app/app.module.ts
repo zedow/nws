@@ -9,6 +9,9 @@ import { environment } from 'src/environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AuthComponent } from './pages/auth/auth.component';
 import { CoreModule } from './@core/core.module';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -17,8 +20,10 @@ import { CoreModule } from './@core/core.module';
   ],
   imports: [
     BrowserModule,
+    MatButtonModule,
     CoreModule,
-  
+    MatIconModule,
+    MatToolbarModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
